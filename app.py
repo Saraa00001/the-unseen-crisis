@@ -251,7 +251,7 @@ c4.markdown(kpi("Average system score", fmt(avg_system, 1), "system readiness"),
 # Visual 1: Global map
 # -----------------------------
 st.markdown("<div class='chapter'><div class='chapter-tag'>01 · A silent global crisis</div><h2>The crisis is global, but the burden is uneven</h2></div>", unsafe_allow_html=True)
-st.markdown("<p class='small-note'>Use this map as your opening visual in Part 2. It quickly shows that mental health pressure is not isolated to one region.</p>", unsafe_allow_html=True)
+
 
 fig_map = px.choropleth(
     view,
